@@ -70,8 +70,11 @@ div[class*=col-]{
 	margin-top: 38px;
 }
 .col-2 {
-	margin-top: 14px;
-	margin-left: 45px;
+	margin-top: 10px;
+	margin-left: 70px;
+	position: absolute;
+}
+.logos {
 	position: absolute;
 }
 .header-menu a {
@@ -101,14 +104,30 @@ img.logo {
 	padding-bottom: 40px;
 	border-bottom: 2px solid #d5d5d6;
 }
-/*==================================================*/
+/*==================<  Contacts {two} >==================*/
+audio {
+	width: 300px;
+	height: 34px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px; 
+	border: 1px solid #99bccc;
+}
+.container.audio {
+	min-height: 290px;
+	border: 1px solid green;
+}
+audio {
+	display: block;
+}
+/*==============<  container catalog {one} >==============*/
 .container.catalog {
 	height: 640px;
 }
 .column {
 	margin-top: 40px;
 	margin-left: 50px;
-	height: 290px;
+	min-height: 290px;
 	float: left;
 	vertical-align: bottom;
 }
