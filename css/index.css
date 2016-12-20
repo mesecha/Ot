@@ -153,13 +153,12 @@ audio {
 	background: #eef1f6;
 }
 .movie {
-	margin-top: 20px;
-	margin-left: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
 	border: 1px solid #d9eaf1;
 }
 video {
-
-	margin-right: 25px;
+	margin-right: 1px;
 }
 /*====================<  brief-script-i-on  >==============*/
 .container.brief-script-i-on {
