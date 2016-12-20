@@ -70,22 +70,21 @@ div[class*=col-]{
 	margin-top: 38px;
 }
 .col-2 {
-	margin-top: 10px;
-	margin-left: 70px;
+	margin-top: 5px;
+	margin-left: 80px;
 	position: absolute;
 }
 .logos {
 	position: absolute;
 }
 .header-menu a {
-	font-size: 16px;
+	font-size: 18px;
 	text-decoration: none;
 	color: #1d0000;
 }
 .header-menu>li {
 	display: inline-block;
 	padding-right: 40px;
-	text-transform: uppercase;
 	font-size: 18px;
 }
 ul.header-menu {
@@ -104,7 +103,12 @@ img.logo {
 	padding-bottom: 40px;
 	border-bottom: 2px solid #d5d5d6;
 }
-/*==================<  Contacts {two} >==================*/
+.header-menu a:active {
+
+	border-bottom: 4px solid #d5d5d6;
+}
+
+/*==================< awaken {two} >==================*/
 audio {
 	width: 360px;
 	height: 35px;
@@ -114,8 +118,9 @@ audio {
 	border: 1px solid #99bccc;
 }
 .container.audio {
-	min-height: 718px;
-	border: 1px solid green;
+    min-height: 718px;
+    border: 1px solid #c2dceb;
+    background-image: url(../img/oceanw.jpg);
 }
 audio {
 	display: block;
@@ -126,6 +131,8 @@ audio {
 /*==============<  container catalog {one} >==============*/
 .container.catalog {
 	height: 718px;
+	background: #eef1f6;
+	background-image: url(../img/oceanw.jpg);
 }
 .column {
 	margin-top: 40px;
@@ -134,15 +141,40 @@ audio {
 	float: left;
 	vertical-align: bottom;
 }
-.column-1,
-.column-2,
-.column-3 {
-	border-radius: 15px;
+.column-2 {
+	
 }
 .column img {
 	border-radius: 25px;
 }
-/*==================================================*/
+/*=====================<  what is ..  >=====================*/
+.container.what-is {
+	height: 718px;
+	background: #eef1f6;
+}
+.movie {
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 1px solid #d9eaf1;
+}
+video {
+
+	margin-right: 25px;
+}
+/*====================<  brief-script-i-on  >==============*/
+.container.brief-script-i-on {
+	height: 718px;
+	border: 1px solid red;
+	background-image: url(../img/oceanw.jpg);
+}
+/*=====================<  draft -outline  >=====================*/
+.container.draft-outline {
+	height: 718px;
+	border: 1px solid red;
+	background: #eef1f6;
+	background-image: url(../img/oceanw.jpg);
+}
+/*==================<  footer  >=========================*/
 .container.footer {
 	background-image: url(../img/cd.jpg);
 	background-repeat: no-repeat;
