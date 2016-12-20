@@ -106,23 +106,26 @@ img.logo {
 }
 /*==================<  Contacts {two} >==================*/
 audio {
-	width: 300px;
-	height: 34px;
+	width: 360px;
+	height: 35px;
 	margin-top: 10px;
 	margin-right: 10px;
 	margin-left: 10px; 
 	border: 1px solid #99bccc;
 }
 .container.audio {
-	min-height: 290px;
+	min-height: 718px;
 	border: 1px solid green;
 }
 audio {
 	display: block;
 }
+.audio-block {
+	margin-top: 10px;
+}
 /*==============<  container catalog {one} >==============*/
 .container.catalog {
-	height: 640px;
+	height: 718px;
 }
 .column {
 	margin-top: 40px;
