@@ -166,6 +166,38 @@ video {
 	border: 1px solid red;
 	background-image: url(../img/oceanw.jpg);
 }
+ @-webkit-keyframes flash {
+    0%, 100% {opacity: 1;} 
+    50% {opacity: 0;}
+   }
+   @-moz-keyframes flash {
+    0%, 100% {opacity: 1;} 
+    50% {opacity: 0;}
+   }
+   @-o-keyframes flash {
+    0%, 100% {opacity: 1;} 
+    50% {opacity: 0;}
+   }
+   @keyframes flash {
+    0%, 100% {opacity: 1;} 
+    50% {opacity: 0;}
+   }
+   .flash {
+    -webkit-animation-name: flash;
+    -moz-animation-name: flash;
+    -o-animation-name: flash;
+    animation-name: flash;
+    /* Задержка перед началом */
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;
+    /* Продолжительность анимации */
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+   }
 /*=====================<  draft -outline  >=====================*/
 .container.draft-outline {
 	height: 718px;
@@ -173,6 +205,22 @@ video {
 	background: #eef1f6;
 	background-image: url(../img/oceanw.jpg);
 }
+		#bar {
+		top: -5.5em; right:5em; /* Положение */
+		padding: .5em; /* Поля */
+		margin: 0; /* Отступы */
+		position: absolute; /* Абсолютное позиционирование */
+		width: 5em; /* Ширина */
+		background: #a3c1d6; /* Цвет фона */
+		color: #fff; /* Цвет текста */
+		text-align: center; /* Выравнивание по центру */
+		/* Переход */
+		-webkit-transition: top 2s ease-out 0.5s;
+		-moz-transition: top 2s ease-out 0.5s;
+		-o-transition: top 2s ease-out 0.5s;
+		transition: top 2s ease-out 0.5s;
+		}
+		#bar:hover { top: 0; }
 /*==================<  footer  >=========================*/
 .container.footer {
 	background-image: url(../img/cd.jpg);
