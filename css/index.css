@@ -90,7 +90,10 @@ ul.header-menu {
 	text-align: center;
 	min-width: 1030px;
 }
-img.logo {
+img.logosnow {
+	margin: 150px 1060px;
+	filter: alpha(opacity=05);
+	opacity: 0.05;
 }
 .header-menu a:hover {
 	color: #054778;
@@ -151,14 +154,13 @@ audio {
 .container.what-is {
 	height: 718px;
 	background: #eef1f6;
+	background-image: url(../img/oceanw.jpg);
 }
-.movie {
-	margin-top: 10px;
-	margin-left: 10px;
-	border: 1px solid #d9eaf1;
+div.movie {
+	margin-left: 30px;
 }
 video {
-	margin-right: 1px;
+	margin-right: 30px;
 }
 /*====================<  brief-script-i-on  >==============*/
 .container.brief-script-i-on {
@@ -197,6 +199,10 @@ video {
     -o-animation-duration: 1s;
     animation-duration: 1s;
    }
+   h1.flash {
+	margin: 150px 1060px;
+	width: 165px;
+}
 /*=====================<  draft -outline  >=====================*/
 .container.draft-outline {
 	height: 718px;
