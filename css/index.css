@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 14px;
-    font-family: Times New Roman,Arial,sans-serif;
 }
 /*
 	grid
@@ -75,7 +74,7 @@ div[class*=col-]{
 	position: absolute;
 }
 .logos {
-	position: absolute;
+    position: absolute;
 }
 .header-menu a {
 	font-size: 18px;
@@ -103,23 +102,24 @@ img.logo {
 	padding-bottom: 40px;
 	border-bottom: 2px solid #d5d5d6;
 }
-.header-menu a:active {
-
-	border-bottom: 4px solid #d5d5d6;
+a.active {
+	padding-bottom: 40px;
+	border-bottom: 2px solid #0a437a;
 }
-
+img.logos.active {
+	filter: alpha(opacity=75);
+	opacity: 0.75;
+}
 /*==================< awaken {two} >==================*/
 audio {
 	width: 360px;
 	height: 35px;
 	margin-top: 10px;
 	margin-right: 10px;
-	margin-left: 10px; 
-	border: 1px solid #99bccc;
+	margin-left: 10px;
 }
 .container.audio {
     min-height: 718px;
-    border: 1px solid #c2dceb;
     background-image: url(../img/oceanw.jpg);
 }
 audio {
@@ -163,7 +163,6 @@ video {
 /*====================<  brief-script-i-on  >==============*/
 .container.brief-script-i-on {
 	height: 718px;
-	border: 1px solid red;
 	background-image: url(../img/oceanw.jpg);
 }
  @-webkit-keyframes flash {
@@ -201,7 +200,6 @@ video {
 /*=====================<  draft -outline  >=====================*/
 .container.draft-outline {
 	height: 718px;
-	border: 1px solid red;
 	background: #eef1f6;
 	background-image: url(../img/oceanw.jpg);
 }
